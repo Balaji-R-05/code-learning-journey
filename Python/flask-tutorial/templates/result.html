@@ -1,0 +1,10 @@
+<h1>
+    Based on the marks you have {{ result }}
+</h1>
+
+<body>
+    {% for key, val in result.items() %}
+        <h1>{{ key }}</h1>
+        <h2>{{ val }}</h2>
+    {% endfor %}
+</body>
