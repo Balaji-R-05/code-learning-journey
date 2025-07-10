@@ -1,4 +1,5 @@
 // Executables
 
-.class
-.exe
+*.class
+*.exe
+*.pdb
